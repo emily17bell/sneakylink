@@ -3,12 +3,16 @@
 	<head>
 		<title>Unsuspicious QR Code Generator</title>
 		<meta name="description" content="Generate a QR code">
+		<link rel="stylesheet" href="index.css">
 	</head>
 	
 	<body>
-		wee
-		<label for="url">Enter url</label>
+		<h1> COMPLETELY REGULAR QR CODE GENERATOR </h1>
+		<div id="qrcode"></div>
+		<label for="url"> Enter url</label>
 		<input type="text" id="url" placeholder="www.wurmpworld.com"/>
-		<button type="button" onclick="alert('clicked it')">Click Me!</button>
+		<button type="button" onclick="pictureTime()">Generate QR Code</button>
 	</body>
+	<script type = "text/javascript" src="qrcode.min.js"></script>
+	<script type = "text/javascript" src="FunctionJunction.js"></script>
 </html>
